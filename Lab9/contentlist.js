@@ -6,7 +6,7 @@ $(function(){
 	// 1. find the addcontent button in task-two.html
   // 2. add an event listener for 'click' events
 	// 3. assign the addContent() function to the click event
-	$('#addcontent').click(function(){
+	$('#addcontent').click(function addContent(){
 		$("#div").append(items_html)
 	})
 });
