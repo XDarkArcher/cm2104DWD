@@ -10,7 +10,7 @@ app.get('/test', function(req, res){
 });
 
 app.get('/joke', function(req, res){
- res.end(randomJoke.body);
+ res.send(randomJoke.body);
 });
 
 app.listen(8080);
