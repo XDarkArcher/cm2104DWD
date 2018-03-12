@@ -5,6 +5,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/test', function(req, res){
- res.send("this is route 2");
+ res.send("this is route 2")
+)};
 
 app.listen(8080);
